@@ -5,7 +5,7 @@ const router = Router();
 router.get('/', function(req, res) {
     const data = getPayLoad(req);
     const response = {
-        "text": "Now: 34 degrees and raining",
+        "text": "(:point_up: ՞ਊ ՞):point_up:",
         "attachments": [{
             "text": `Dummy GET response. Only you can see this ${data.user_name}`
         }]
@@ -17,9 +17,7 @@ router.post('/', function(req, res) {
     const data = getPayLoad(req);
     const response = {
         "response_type": "in_channel",
-        "text": "Now: 34 degrees and raining",
-        "attachments": [{
-            "text":`Thanks for asking ${data.user_name}. Hi everyone! :wave:`
+        "text": "(:point_up: ՞ਊ ՞):point_up:",
         }]
     };
     res.send(response);
