@@ -18,7 +18,6 @@ router.post('/', function(req, res) {
     const response = {
         "response_type": "in_channel",
         "text": "(:point_up: ՞ਊ ՞):point_up:",
-        }]
     };
     res.send(response);
 });
